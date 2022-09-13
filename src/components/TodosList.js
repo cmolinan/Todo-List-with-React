@@ -10,7 +10,13 @@ class TodosList extends React.Component {
   }
 
   render() {
-    const { handleChangeProps, deleteTodoProps, todos } = this.props;
+    const {
+      handleChangeProps,
+      deleteTodoProps,
+      todos,
+      setUpdate,
+    } = this.props;
+
     return (
       <ul>
         {todos.map((todo) => (
@@ -19,6 +25,7 @@ class TodosList extends React.Component {
             todo={todo}
             handleChangeProps={handleChangeProps}
             deleteTodoProps={deleteTodoProps}
+            setUpdate={setUpdate}
           />
         ))}
       </ul>
