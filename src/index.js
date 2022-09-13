@@ -1,11 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './App.css';
+import './functionBased/App.css';
 
 // component file
-import TodoContainer from './components/TodoContainer';
-
-// ReactDOM.render(<TodoContainer />, document.getElementById('root'));
+import TodoContainer from './functionBased/components/TodoContainer';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -13,3 +11,18 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root'),
 );
+
+// **** FOR CLASS BASED
+// import React from 'react';
+// import ReactDOM from 'react-dom';
+// import './App.css';
+
+// // component file
+// import TodoContainer from './components/TodoContainer';
+
+// ReactDOM.render(
+//   <React.StrictMode>
+//     <TodoContainer />
+//   </React.StrictMode>,
+//   document.getElementById('root'),
+// );
