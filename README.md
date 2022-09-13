@@ -11,13 +11,10 @@
     Part 6 – Getting started with React lifecycle methods.
     Part 7 – Getting started with React hooks.
     Part 8 – How to use SVG icons in React (Optional).
-    Part 9 – Routing with React Router.
-    Part 10 – How to add hamburger menu in React (Optiona).
-    Part 11 – Deploying React app to GitHub Pages (Optional).
-
+    
 ## Built With
 
-- React JS (components, events, states)
+- React JS (components, events, states, hooks)
 - JSX
 - JavaScript
 - Webpack
